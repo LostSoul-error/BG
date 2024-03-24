@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Group Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <input type="text" id="input1" class="input-field" placeholder="Enter Father Blood Group (e.g. A)" size="30">
+    <input type="text" id="input2" class="input-field" placeholder="Enter Mother Blood Group (e.g. B)" size="30">
+    <button class="action-btn" id="ac1" onclick="BG()">Find Next Generation Blood Group</button>
+    <button class="action-btn" id="ac2" onclick="clearFields()">Clear</button>
+    <div id="output" class="output-text"></div>
+</div>
+
+<footer id="footer">
+    Made with <span class="heart" onclick="changeHeartColor()">♥</span> by Rishav
+</footer>
+
+<section id="infoPopup">
+    <div class="about">
+        <button class="close-btn" onclick="closePopup()">×</button>
+        <h2>Understanding Blood Group Inheritance</h2>
+        <p>Our website is dedicated to demystifying the complexities of blood group inheritance. Through an intuitive interface, users can input the blood types of two parents and discover the possible blood types for their offspring. Our responsive design ensures that you can access this valuable information on any device, making it easier than ever to explore genetic possibilities. Whether you're a student, educator, or just curious about genetics, our tools are designed to enhance your understanding of blood type inheritance.</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
