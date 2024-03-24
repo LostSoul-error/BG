@@ -214,6 +214,7 @@ function clearFields() {
 function changeHeartColor() {
     var heart = document.querySelector('.heart');
     heart.style.color = 'pink';
+    alert("❤");
 }
 window.onload = function() {
    
